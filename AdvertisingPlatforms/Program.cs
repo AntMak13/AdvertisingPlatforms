@@ -2,7 +2,6 @@ using AdvertisingPlatforms.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// in-memory service
 builder.Services.AddSingleton<IAdvertisingService, AdvertisingService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
