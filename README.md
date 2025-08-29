@@ -13,7 +13,7 @@
 1. Клонируйте репозиторий: git clone https://github.com/ВашПользователь/AdvertisingPlatforms.git
     Затем выполните: cd AdvertisingPlatforms
 
-2. В терминале из папки проекта запустите сервер: dotnet run --project AdvertisingPlatforms
+2. В терминале из папки проекта запустите сервер: dotnet run --project AdvertisingPlatforms.csproj --urls "http://localhost:5000;https://localhost:5001"
     По умолчанию сервер доступен на: http://localhost:5000 (https://localhost:5001)
 
 3. Откройте Swagger для тестирования API: http://localhost:5000/swagger
