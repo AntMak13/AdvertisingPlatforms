@@ -17,14 +17,4 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapControllers();
-
-// app.UseHttpsRedirection(); // ?
-
 app.Run();
-
-
-/*
- * Для запуска
- * dotnet run --urls "http://localhost:5000;https://localhost:5001"
- * 
-*/
